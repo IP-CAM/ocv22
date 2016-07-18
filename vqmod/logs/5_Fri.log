@@ -1,0 +1,15 @@
+---------- Date: 2016-07-01 12:34:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /ocv22/admin/index.php?route=catalog/product/edit&token=4hSGN4nr9DRpBNp2M31z5f9rYeKNp7uL&product_id=42
+MOD DETAILS:
+   modFile   : E:\xampp\htdocs\ocv22\vqmod/xml/amazon_module.xml
+   id        : Amazon Module
+   version   : 1.0.0
+   vqmver    : 2.6.1
+   author    : jasonjiang
+
+File Name    : admin/view/template/catalog/product_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td><?php echo $entry_sku; ?></td>
+
+----------------------------------------------------------------------
+
+

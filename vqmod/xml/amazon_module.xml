@@ -1,0 +1,307 @@
+<modification>
+	<id>Amazon Module</id>
+	<version>1.0.0</version>
+	<vqmver>2.6.1</vqmver>
+	<author>jasonjiang</author>
+	
+	<file name="admin/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="before"><![CDATA[<label class="col-sm-2 control-label" for="input-sku">]]></search>
+			<add><![CDATA[
+				<label class="col-sm-2 control-label" for="input-group-model"><span data-toggle="tooltip" title="Amazon-Style Group ID">Amazon-Style Group ID</span></label>
+                <div class="col-sm-10">
+                  <input type="text" name="group_model" value="<?php echo $group_model; ?>" placeholder="Amazon-Style Group ID" id="input-group-model" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+              	<label class="col-sm-2 control-label" for="input-model-tag"><span data-toggle="tooltip" title="Name to Display">Name to Display</span></label>
+                <div class="col-sm-10">
+                  <input type="text" name="model_tag" value="<?php echo $model_tag; ?>" placeholder="Name to Display" id="input-model-tag" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+              	<label class="col-sm-2 control-label"></label>
+                <div class="col-sm-10">
+                  <input type="checkbox" name="chk_name" <?php echo $chk_name==1 ? "checked":""?> value="1" />
+                  &nbsp;Show Name
+                  &emsp;&emsp;
+                  <input type="checkbox" name="chk_price" <?php echo $chk_price==1 ? "checked":""?> value="1" />
+                  &nbsp;Show Price
+                  &emsp;&emsp;
+                  <input type="checkbox" name="chk_image" <?php echo $chk_image==1 ? "checked":""?> value="1" />
+                  &nbsp;Show Image
+                </div>
+              </div>
+              <div class="form-group">
+				]]></add>
+		</operation>
+	</file>
+	
+	<file name="admin/controller/catalog/product.php">
+		<operation>
+			<search position="before"><![CDATA[if (isset($this->request->post['sku'])) {]]></search>
+			<add><![CDATA[
+				$query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "product WHERE field = 'group_model'");
+				$exists = 0;
+				foreach ($query->rows as $index) {$exists++;}
+				if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "product ADD COLUMN `group_model` varchar(64) NULL DEFAULT '';");}
+				
+				$query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "product WHERE field = 'model_tag'");
+				$exists = 0;
+				foreach ($query->rows as $index) {$exists++;}
+				if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "product ADD COLUMN `model_tag` varchar(64) NULL DEFAULT '';");}
+
+				$query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "product WHERE field = 'chk_price'");
+				$exists = 0;
+				foreach ($query->rows as $index) {$exists++;}
+				if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "product ADD COLUMN `chk_price` tinyint(1) NULL DEFAULT '0';");}
+
+				$query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "product WHERE field = 'chk_image'");
+				$exists = 0;
+				foreach ($query->rows as $index) {$exists++;}
+				if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "product ADD COLUMN `chk_image` tinyint(1) NULL DEFAULT '0';");}
+
+				$query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "product WHERE field = 'chk_name'");
+				$exists = 0;
+				foreach ($query->rows as $index) {$exists++;}
+				if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "product ADD COLUMN `chk_name` tinyint(1) NULL DEFAULT '0';");}
+
+				if (isset($this->request->post['group_model'])) {
+		      		$data['group_model'] = $this->request->post['group_model'];
+		    	} elseif (!empty($product_info) && isset($product_info['group_model'])) {
+					$data['group_model'] = $product_info['group_model'];
+				} else {
+		      		$data['group_model'] = '';
+		    	}
+
+		    	if (isset($this->request->post['model_tag'])) {
+		      		$data['model_tag'] = $this->request->post['model_tag'];
+		    	} elseif (!empty($product_info) && isset($product_info['model_tag'])) {
+					$data['model_tag'] = $product_info['model_tag'];
+				} else {
+		      		$data['model_tag'] = '';
+		    	}
+
+		    	if (isset($this->request->post['chk_price'])) {
+		      		$data['chk_price'] = $this->request->post['chk_price'];
+		    	} elseif (!empty($product_info) && isset($product_info['chk_price'])) {
+					$data['chk_price'] = $product_info['chk_price'];
+				} else {
+		      		$data['chk_price'] = '';
+		    	}
+
+		    	if (isset($this->request->post['chk_image'])) {
+		      		$data['chk_image'] = $this->request->post['chk_image'];
+		    	} elseif (!empty($product_info) && isset($product_info['chk_image'])) {
+					$data['chk_image'] = $product_info['chk_image'];
+				} else {
+		      		$data['chk_image'] = '';
+		    	}
+
+		    	if (isset($this->request->post['chk_name'])) {
+		      		$data['chk_name'] = $this->request->post['chk_name'];
+		    	} elseif (!empty($product_info) && isset($product_info['chk_name'])) {
+					$data['chk_name'] = $product_info['chk_name'];
+				} else {
+		      		$data['chk_name'] = '';
+		    	}
+				
+				]]></add>
+		</operation>		
+	</file>
+	<file name="admin/model/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[model = '" . $this->db->escape($data['model']) . "',]]></search>
+			<add><![CDATA[model = '" . $this->db->escape($data['model']) . "', group_model = '" . $this->db->escape($data['group_model']) . "', model_tag = '" . $this->db->escape($data['model_tag']) . "', chk_price = '" . $this->db->escape(isset($data['chk_price']) ? $data['chk_price']:0) . "', chk_image = '" . $this->db->escape(isset($data['chk_image']) ? $data['chk_image']:0) . "', chk_name = '" . $this->db->escape(isset($data['chk_name']) ? $data['chk_name']:0) . "',]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="after"><![CDATA[if ($product_info) {]]></search>
+			<add><![CDATA[
+				$data['group_products'] = array();
+
+				if($product_info['group_model']) {
+					
+					$this->load->model('tool/image');
+
+					$group_products = $this->model_catalog_product->getGroupProducts($product_info['group_model']);
+
+					foreach($group_products as $kk=>$group_product) {
+						$data['group_products'][$kk]['model'] = $group_product['model'];
+						$data['group_products'][$kk]['model_tag'] = $group_product['model_tag'];
+						$data['group_products'][$kk]['chk_price'] = $group_product['chk_price'];
+						$data['group_products'][$kk]['chk_image'] = $group_product['chk_image'];
+						$data['group_products'][$kk]['chk_name'] = $group_product['chk_name'];
+						$data['group_products'][$kk]['href'] = $this->url->link('product/product', 'product_id=' . $group_product['product_id']);
+
+						if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+							$data['group_products'][$kk]['price'] = $this->currency->format($this->tax->calculate($group_product['price'], $group_product['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+						} else {
+							$data['group_products'][$kk]['price'] = false;
+						}
+									
+						if ((float)$group_product['special']) {
+							$data['group_products'][$kk]['price'] = $this->currency->format($this->tax->calculate($group_product['special'], $group_product['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+						}
+
+						if ($group_product['image']) {
+							$data['group_products'][$kk]['image'] = $this->model_tool_image->resize($group_product['image'], 48, 48);
+						} else {
+							$data['group_products'][$kk]['image'] = '';
+						}
+					}
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/model/catalog/product.php">
+		<operation>
+			<search position="after"><![CDATA['model'            => $query->row['model'],]]></search>
+			<add><![CDATA[
+				'group_model'      => $query->row['group_model'],
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[public function getProducts($data = array()) {]]></search>
+			<add><![CDATA[
+				public function getGroupProducts($group_model) {
+					if (isset($this->session->data['store_id'])) {
+						$store_id = $this->session->data['store_id'];
+					} else {
+						$store_id = $this->config->get('config_store_id');
+					}
+
+					if (isset($this->session->data['customer_info']) && $this->config->get('config_disabled_products')) {
+						$status_query = 0;
+					} else {
+						$status_query = 1;
+					}
+					
+					if ($this->customer->isLogged()) {
+						$customer_group_id = $this->customer->getCustomerGroupId();
+					} else {
+						$customer_group_id = $this->config->get('config_customer_group_id');
+					}
+
+					$group_products = array();
+
+					$query = $this->db->query("SELECT *, p.image, (SELECT price FROM " . DB_PREFIX . "product_discount pd2 WHERE pd2.product_id = p.product_id AND pd2.customer_group_id = '" . (int)$customer_group_id . "' AND pd2.quantity = '1' AND ((pd2.date_start = '0000-00-00' OR pd2.date_start < NOW()) AND (pd2.date_end = '0000-00-00' OR pd2.date_end > NOW())) ORDER BY pd2.priority ASC, pd2.price ASC LIMIT 1) AS discount, (SELECT price FROM " . DB_PREFIX . "product_special ps WHERE ps.product_id = p.product_id AND ps.customer_group_id = '" . (int)$customer_group_id . "' AND ((ps.date_start = '0000-00-00' OR ps.date_start < NOW()) AND (ps.date_end = '0000-00-00' OR ps.date_end > NOW())) ORDER BY ps.priority ASC, ps.price ASC LIMIT 1) AS special, (SELECT points FROM " . DB_PREFIX . "product_reward pr WHERE pr.product_id = p.product_id AND customer_group_id = '" . (int)$customer_group_id . "') AS reward, (SELECT ss.name FROM " . DB_PREFIX . "stock_status ss WHERE ss.stock_status_id = p.stock_status_id AND ss.language_id = '" . (int)$this->config->get('config_language_id') . "') AS stock_status, (SELECT wcd.unit FROM " . DB_PREFIX . "weight_class_description wcd WHERE p.weight_class_id = wcd.weight_class_id AND wcd.language_id = '" . (int)$this->config->get('config_language_id') . "') AS weight_class, (SELECT lcd.unit FROM " . DB_PREFIX . "length_class_description lcd WHERE p.length_class_id = lcd.length_class_id AND lcd.language_id = '" . (int)$this->config->get('config_language_id') . "') AS length_class, (SELECT AVG(rating) AS total FROM " . DB_PREFIX . "review r1 WHERE r1.product_id = p.product_id AND r1.status = '1' GROUP BY r1.product_id) AS rating, (SELECT COUNT(*) AS total FROM " . DB_PREFIX . "review r2 WHERE r2.product_id = p.product_id AND r2.status = '1' GROUP BY r2.product_id) AS reviews, p.sort_order FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) LEFT JOIN " . DB_PREFIX . "manufacturer m ON (p.manufacturer_id = m.manufacturer_id) WHERE p.group_model = '" . $group_model . "' AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "' 
+							AND p.status >= '" . $status_query . "'
+						 AND p.date_available <= NOW() 
+							AND p2s.store_id = '" . (int)$store_id
+						 . "'");
+					
+					if ($query->num_rows) {
+						foreach($query->rows as $row) {
+							$group_products[] = array(
+								'product_id'       => $row['product_id'],
+								'model'            => $row['model'],
+								'model_tag'        => $row['model_tag'],
+								'image'			   => $row['image'],
+								'price'            => ($row['discount'] ? $row['discount'] : $row['price']),
+								'chk_price'	   	   => $row['chk_price'],
+								'chk_image'	   	   => $row['chk_image'],
+								'chk_name'	   	   => $row['chk_name'],
+								'special'          => $row['special'],
+								'tax_class_id'     => $row['tax_class_id']
+							);
+						}
+					}
+
+					return $group_products;
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/*/template/product/product.tpl">
+		<operation>
+			<search position="before"><![CDATA[<?php echo $header; ?>]]></search>
+			<add><![CDATA[
+				<style type="text/css" rel="stylesheet">
+					.group_model h4 {
+						font-size: 16px;
+						margin: 20px 0 10px;
+					}
+					.group_model ul {
+						margin: 0 0 20px 0;
+						padding: 0;
+					}
+					.group_model li {
+						list-style: none outside none;
+						background: #FFF;
+						padding: 0 6px;
+						text-align: center;
+						border: 1px solid #D9D9D9;
+						cursor: pointer;
+						margin: 10px 10px 0 0;
+						display: inline-block;
+					}
+					.group_model li img {
+						display: block;
+						float: left;
+						margin-top:6px;
+					}
+					.group_model li a {
+						display: block;
+						float: right;
+						vertical-align: middle;
+						padding: 10px;
+						color: #646464;
+						font-size: 12px;
+						font-weight: 400;
+						text-decoration: none;
+					}
+					.group_model li.selected  {
+					    border-color: #e77600 !important;
+					}
+					@media (min-width: 1025px) {
+						.group_model li:hover  {
+						    border-color: #e77600 !important;
+						     transition: all 1s ease 0s;
+						     -webkit-transform: all 1s ease 0.5s;
+						    -moz-transform: all 1s ease 0.5s;
+						    -o-transform: all 1s ease 0.5s;
+						    -ms-transform: all 1s ease 0.5s;
+						}
+					}
+				</style>
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[<div id="product">]]></search>
+			<add><![CDATA[
+				<?php if($group_products) { ?>
+				<div class="group_model">
+					<h4><?php echo count($group_products)?> models to choose from:</h4>
+					<ul>
+						<?php foreach($group_products as $group_product) { ?>
+						<li <?php echo $group_product['model']==$model ? 'class="selected"':'';?>>
+							<?php if($group_product['chk_image']) { ?>
+							<img src="<?php echo $group_product['image']?>" onclick="location.href='<?php echo $group_product['href']?>';" />
+							<?php } ?>
+							<a href="<?php echo $group_product['href']?>">
+								<?php if($group_product['chk_name']) { ?>
+								<?php echo strlen($group_product['model_tag']) > 12 ? (substr(html_entity_decode($group_product['model_tag']), 0, 12) . "...") : $group_product['model_tag']?>
+								<br/>
+								<?php } ?>
+								<?php if($group_product['chk_price']) { ?>
+								<?php echo $group_product['price']?>
+								<?php } ?>
+							</a>
+						</li>
+						<?php } ?>
+					</ul>
+				</div>
+				<?php } ?>
+			]]></add>
+		</operation>
+	</file>
+	-->
+</modification>
+
+
+

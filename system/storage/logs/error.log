@@ -1,0 +1,287 @@
+2016-07-01 12:34:17 - PHP Notice:  Undefined index: group_model in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 776
+2016-07-01 12:34:17 - PHP Notice:  Indirect modification of overloaded property ControllerCatalogProduct::$data has no effect in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 776
+2016-07-01 12:34:17 - PHP Notice:  Undefined index: model_tag in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 784
+2016-07-01 12:34:17 - PHP Notice:  Indirect modification of overloaded property ControllerCatalogProduct::$data has no effect in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 784
+2016-07-01 12:34:17 - PHP Notice:  Undefined index: chk_price in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 792
+2016-07-01 12:34:17 - PHP Notice:  Indirect modification of overloaded property ControllerCatalogProduct::$data has no effect in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 792
+2016-07-01 12:34:17 - PHP Notice:  Undefined index: chk_image in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 800
+2016-07-01 12:34:17 - PHP Notice:  Indirect modification of overloaded property ControllerCatalogProduct::$data has no effect in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 800
+2016-07-01 12:34:17 - PHP Notice:  Undefined index: chk_name in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 808
+2016-07-01 12:34:17 - PHP Notice:  Indirect modification of overloaded property ControllerCatalogProduct::$data has no effect in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_controller_catalog_product.php on line 808
+2016-07-01 12:42:08 - PHP Notice:  Undefined variable: group_model in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 111
+2016-07-01 12:42:08 - PHP Notice:  Undefined variable: model_tag in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 114
+2016-07-01 12:42:08 - PHP Notice:  Undefined variable: chk_name in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 116
+2016-07-01 12:42:08 - PHP Notice:  Undefined variable: chk_price in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 119
+2016-07-01 12:42:08 - PHP Notice:  Undefined variable: chk_image in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 122
+2016-07-01 12:43:50 - PHP Notice:  Undefined variable: group_model in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 111
+2016-07-01 12:43:50 - PHP Notice:  Undefined variable: model_tag in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 115
+2016-07-01 12:43:50 - PHP Notice:  Undefined variable: chk_name in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 117
+2016-07-01 12:43:50 - PHP Notice:  Undefined variable: chk_price in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 120
+2016-07-01 12:43:50 - PHP Notice:  Undefined variable: chk_image in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 123
+2016-07-01 12:49:34 - PHP Notice:  Undefined variable: group_model in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 111
+2016-07-01 12:49:34 - PHP Notice:  Undefined variable: model_tag in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 117
+2016-07-01 12:49:34 - PHP Notice:  Undefined variable: chk_name in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 123
+2016-07-01 12:49:34 - PHP Notice:  Undefined variable: chk_price in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 126
+2016-07-01 12:49:34 - PHP Notice:  Undefined variable: chk_image in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 129
+2016-07-01 12:50:12 - PHP Notice:  Undefined variable: group_model in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 111
+2016-07-01 12:50:12 - PHP Notice:  Undefined variable: model_tag in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 117
+2016-07-01 12:50:12 - PHP Notice:  Undefined variable: chk_name in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 123
+2016-07-01 12:50:12 - PHP Notice:  Undefined variable: chk_price in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 126
+2016-07-01 12:50:12 - PHP Notice:  Undefined variable: chk_image in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-admin_view_template_catalog_product_form.tpl on line 129
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 180 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 180 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 186 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 180 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 186 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in E:\xampp\htdocs\ocv22\vqmod\vqcache\vq2-catalog_controller_product_product.php on line 180 and defined in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 24
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 25
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 26
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 27
+2016-07-01 15:32:36 - PHP Notice:  Undefined variable: currency in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-01 15:32:36 - PHP Notice:  Undefined index:  in E:\xampp\htdocs\ocv22\system\library\cart\currency.php on line 30
+2016-07-18 12:02:43 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\xampp\htdocs\ocv22\system\library\mail.php on line 158
+2016-07-18 12:09:41 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\xampp\htdocs\ocv22\system\library\mail.php on line 158
+2016-07-18 12:15:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\xampp\htdocs\ocv22\system\library\mail.php on line 158
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 5
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 5
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_form in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 17
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_customer in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 22
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 23
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_payment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 24
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_shipping in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 25
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 26
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_store in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 31
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_currency in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 45
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_customer in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 59
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_customer in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 61
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_customer_group in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 66
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_firstname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 80
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_lastname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 86
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_email in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 92
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_telephone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 98
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_fax in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 104
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 236
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_continue in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 236
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 244
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_model in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 245
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_quantity in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 246
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_price in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 247
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 248
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_action in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 249
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 311
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: tab_voucher in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 312
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 317
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 319
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_quantity in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 326
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 334
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_product_add in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 334
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_voucher in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 339
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_to_name in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 341
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_to_email in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 347
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_from_name in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 353
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_from_email in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 359
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_theme in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 365
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_message in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 375
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_amount in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 381
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 388
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_voucher_add in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 388
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_back in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 395
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_continue in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 398
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 404
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 407
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_firstname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 415
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_lastname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 421
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_company in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 427
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address_1 in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 433
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address_2 in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 439
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_city in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 445
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_postcode in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 451
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 457
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 460
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 472
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_back in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 606
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 609
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_continue in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 609
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 615
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 618
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_firstname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 626
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_lastname in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 632
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_company in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 638
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address_1 in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 644
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_address_2 in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 650
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_city in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 656
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_postcode in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 662
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 668
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 671
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 683
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_back in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 817
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 820
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_continue in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 820
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_product in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 829
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_model in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 830
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_quantity in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 831
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_price in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 832
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: column_total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 833
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_no_results in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 838
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_order_detail in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 844
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_shipping_method in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 846
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 850
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 856
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_apply in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 856
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_payment_method in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 861
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 865
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 871
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_apply in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 871
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_coupon in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 876
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 881
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_apply in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 881
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_voucher in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 886
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 889
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 891
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_apply in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 891
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_reward in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 896
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 899
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 901
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_apply in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 901
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_order_status in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 906
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 921
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_affiliate in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 927
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_back in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 936
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_refresh in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 939
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 939
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_save in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 940
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1002
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_ip_add in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1002
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_refresh in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1108
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1108
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_remove in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1111
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1111
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_remove in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1149
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1149
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_no_results in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1156
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_no_results in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1216
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1238
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1298
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: entry_option in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1464
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1474
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1498
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1548
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_loading in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1585
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: button_upload in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1585
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1881
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1894
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 1960
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 2067
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 2080
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_select in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 2146
+2016-07-18 18:26:59 - PHP Notice:  Undefined variable: text_none in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 2387
+2016-07-18 18:42:35 - PHP Notice:  Undefined variable: cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 6
+2016-07-18 18:42:35 - PHP Notice:  Undefined variable: button_cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 6
+2016-07-18 18:46:26 - PHP Notice:  Undefined variable: cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 6
+2016-07-18 18:46:26 - PHP Notice:  Undefined variable: button_cancel in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 6
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 32
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 36
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 100
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: user_agent in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 138
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 156
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 163
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: payment_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 164
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 176
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 184
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: shipping_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 185
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 372
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 382
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: customer_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 392
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 406
+2016-07-18 20:51:53 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 409
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 32
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 36
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 100
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: user_agent in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 138
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 156
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 163
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: payment_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 164
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 176
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 184
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: shipping_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 185
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 372
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 382
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: customer_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 392
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 406
+2016-07-18 20:52:17 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 409
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_added in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 18
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_modified in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 19
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 32
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: date_shipped in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 36
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: total in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 100
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: user_agent in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 138
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: ip in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 140
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 156
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: payment_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 163
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: payment_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 164
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 176
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: shipping_zone in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 184
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: shipping_country in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 185
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 372
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 382
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: customer_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 392
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: internal_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 406
+2016-07-18 20:52:26 - PHP Notice:  Undefined variable: gift_comment in E:\xampp\htdocs\ocv22\admin\view\template\sale\order_volusion_form.tpl on line 409
